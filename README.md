@@ -37,3 +37,7 @@ Will produce the following output:
 └─fact(4)=24
 ```
 Try it on your terminal!
+
+## Others
+
+[`ftimer`](https://github.com/fsossai/ftimer) is a project that uses FLog. Go take a look!

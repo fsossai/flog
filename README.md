@@ -1,25 +1,25 @@
-# FLog
+# fslog
 
-`flog` is a tool that helps formatting nested and structured logs.
+`fslog` is a tool that helps formatting nested and structured logs.
 
 ## Example
 
 ```python
-import flog
+import fslog
 
 def fact(n):
     if n == 1:
-        flog.log("Reached base case")
+        fslog.log("Reached base case")
         return 1
-    flog.open(f"Computing fact({n})")
-    flog.log(f"Recursive step: {n} * fact({n-1})")
+    fslog.open(f"Computing fact({n})")
+    fslog.log(f"Recursive step: {n} * fact({n-1})")
     res = n * fact(n-1)
-    flog.close(f"fact({n})={res}")
+    fslog.close(f"fact({n})={res}")
     return res
 
-flog.param["open.style"] = flog.style.BOLD + flog.style.YELLOW
-flog.param["log.style"] = flog.style.UNDERLINE
-flog.param["close.style"] = flog.style.GREEN
+fslog.param["open.style"] = fslog.style.BOLD + fslog.style.YELLOW
+fslog.param["log.style"] = fslog.style.UNDERLINE
+fslog.param["close.style"] = fslog.style.GREEN
 
 fact(4)
 ```
@@ -40,4 +40,4 @@ Try it on your terminal!
 
 ## Others
 
-[`ftimer`](https://github.com/fsossai/ftimer) is a project that uses FLog. Go take a look!
+[`ftimer`](https://github.com/fsossai/ftimer) is a project that uses fslog. Go take a look!

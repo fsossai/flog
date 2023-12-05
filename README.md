@@ -40,4 +40,4 @@ Try it on your terminal!
 
 ## Others
 
-[`ftimer`](https://github.com/fsossai/ftimer) is a project that uses fslog. Go take a look!
+[`horatio`](https://github.com/fsossai/horatio) is a project that uses fslog. Go take a look!

@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setup(
     name="fslog",
-    version="0.1.2",
+    version="0.1.3",
     author="Federico Sossai",
     author_email="federico.sossai@gmail.com",
     url="http://github.com/fsossai/fslog",
